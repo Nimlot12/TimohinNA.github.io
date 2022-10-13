@@ -1,0 +1,86 @@
+.P{
+    color: black;
+    font-size: 20px;
+    background-color:  #CCCCFF;
+}
+.header{
+    background-color: aquamarine;
+    background-image:  url(../images/1613535428_9-p-fon-dlya-prezentatsii-po-istorii-sssr-9.jpg);
+    color: white;
+    
+}
+.footer{
+    background-color: var(--bgcolor);
+    height: 100px;
+}
+body{
+    --bgcolor: blue;
+    --pading: 0 0 20px 0;
+}
+.meny_nav{
+    display: flex;
+    flex-basis: 90%;
+    justify-content: right;
+}
+.meny_nav li{
+    display: inline;
+}
+
+.meny{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.logo{
+    flex-basis: 10%;
+}
+.f1{
+    display: flex;
+}
+.f1 div{
+    display: inline;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    padding: 0/00px;
+    min-height: 100vh;
+}
+.main1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.main2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.desc{
+    grid-column: span 1;
+}
+.main_foto{
+    grid-column: span 1;
+}
+.wrapper{
+    max-width: 1060px;
+    min-height: 2150px;
+    width: 80%;
+    margin: 0 auto;
+}
+.colour1{
+    background-color:  #ccf8ff;
+}
+.colour2{
+    background-color:  #04f8b7;
+}
+.grid{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	height: 100hv;
+}
+textarea{
+	resize: none;
+}
+.sr_only{ 
+	overflow: hidden; 
+}
