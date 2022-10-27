@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       console.log("Hello world!!!!"); 
+       function d(){
+        a = 10;
+        for(let i = 0; i < a; i++){
+            document.write("B");
+            
+        }
+       }
+    </script>
+    
+</head>
+<body>
+    <script>
+        //for(i = 0; i<= 100; i++){
+            document.writeln("Hello world </br>");
+            //alert("Внимание");
+        //}
+    </script>
+    <div id = "test">
+        <script>
+            document.getElementById("test").innerText="asdf";
+        </script>
+    </div>
+    <div>
+        <button onclick="d()" id="btn2">
+            <script>
+                document.getElementById("btn2").addEventListener("onclick", d);
+            </script>
+            ЖМИ
+        </button>
+    </div>
+    <div id="id1"> 
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur placeat explicabo, aperiam, vitae distinctio magnam voluptatibus repudiandae id veniam harum exercitationem laudantium hic corporis perspiciatis, aliquam ipsum debitis nihil vero!
+        <button id = "color">
+            поменяй цвет
+        </button>
+        <script>
+            document.getElementById("color").onclick = changeColor;
+            const element = document.getElementById("id1");
+            let currentColor = "red";
+            function changeColor(){
+                if(currentColor == "red"){
+                    currentColor = "green";
+                }
+                else{
+                   element.style.color = "red";
+                   currentColor = "red";
+                }
+            }
+        </script>
+    </div>
+    
+</body>
+</html>
